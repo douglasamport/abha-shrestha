@@ -1,0 +1,51 @@
+#homepageWrapper {
+  background: url("../content/black-texture.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* <a href="https://www.freepik.com/free-photo/black-texture_973584.htm">Image by dashu83</a> on Freepik */
+}
+
+/* #reservationButton {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(214, 163, 87);
+  transition: color 100ms linear;
+  max-width: 200px;
+  margin: auto;
+  padding: 15px 32px;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+} */
+
+.linkHover {
+  color: rgb(252, 236, 221);
+  cursor: pointer;
+}
+
+.text-container {
+  margin: auto;
+  max-width: 600px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 1em;
+}
+
+.hp-heading {
+  padding: 0 0 0 0.2em;
+  margin: auto;
+  font-family: "Outfit", "Roboto", Helvetica;
+  font-weight: 400;
+  font-size: 3em;
+  color: rgb(214, 163, 87);
+}
+.hp-sub-heading {
+  padding: 0 0 0 0.2em;
+  margin: auto;
+  font-family: "Outfit", "Roboto", Helvetica;
+  font-weight: 300;
+  font-size: 2em;
+  color: rgba(214, 163, 87, 0.75);
+}

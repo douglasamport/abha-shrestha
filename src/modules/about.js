@@ -25,7 +25,7 @@ function aboutpage() {
   let form = createAndClass("form", "form");
   form.setAttribute(
     "action",
-    "https://formsubmit.co/605921a412a7344254cf5d0b8eb9984e"
+    "https://formsubmit.co/abhashresthaphotography@gmail.com"
   );
   form.setAttribute("method", "POST");
 

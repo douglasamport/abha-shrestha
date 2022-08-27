@@ -1,14 +1,52 @@
 #aboutpageWrapper {
-    background: url('../content/wine.jpg')no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: url("../content/PSX_20220826_135255.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .about-heading {
-    padding: 0 0 0 .2em;
-    margin:auto; 
-    font-family: 'Outfit', 'Roboto', Helvetica;
-    font-weight: 300;
-    font-size: 2.5em;
-    color: rgb(214, 163, 87);
+  padding: 0 0 0 0.2em;
+  margin: auto;
+  font-family: "Outfit", "Roboto", Helvetica;
+  font-weight: 300;
+  font-size: 2.5em;
+  color: rgb(214, 163, 87);
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+}
+
+input {
+  width: 200px;
+}
+
+.form-field {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  border-radius: 10px;
+  margin: 10px 0 0 0;
+}
+
+.form-button {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(214, 163, 87);
+  transition: color 100ms linear;
+  max-width: 100px;
+  margin: auto;
+  padding: 10px 16px;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 10px 0 0 0;
+  border-radius: 10px;
+}
+
+.form-button:hover {
+  /* width: 100px; */
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(235, 190, 123);
+  border: 1px solid grey;
 }

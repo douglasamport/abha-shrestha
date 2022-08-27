@@ -20,8 +20,8 @@ function homepage() {
   let subHeader = createAndClass("h2", ["hp-sub-heading"]);
   subHeader.textContent = copy.homepageSubHeader;
 
-  let description = createAndClass("p", ["copy", "outfit200"]);
-  description.textContent = copy.homepageCopy;
+  // let description = createAndClass("p", ["copy", "outfit200"]);
+  // description.textContent = copy.homepageCopy;
 
   //   let resButton = createAndClass(
   //     "button",
@@ -32,7 +32,7 @@ function homepage() {
 
   textContainer.appendChild(header);
   textContainer.appendChild(subHeader);
-  textContainer.appendChild(description);
+  // textContainer.appendChild(description);
 
   center.appendChild(textContainer);
   //   center.appendChild(resButton);

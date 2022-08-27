@@ -1,25 +1,43 @@
 #cusinepageWrapper {
-    background: url('../content/food.jpg')no-repeat;
-    background-size: cover;
-    background-position: center;
+  /* background: url("../content/black-texture.jpg") no-repeat; */
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  height: 100%;
 }
 
 .cusine-heading {
-    padding: 0 0 0 .2em;
-    margin:auto; 
-    font-family: 'Outfit', 'Roboto', Helvetica;
-    font-weight: 300;
-    font-size: 2.5em;
-    color: rgb(214, 163, 87);
-    padding-bottom: .51em;
-    border-bottom: rgb(214, 163, 87) solid 2px;
+  padding: 0 0 0 0.2em;
+  margin: auto;
+  font-family: "Outfit", "Roboto", Helvetica;
+  font-weight: 300;
+  font-size: 2.5em;
+  color: rgb(214, 163, 87);
+  padding-bottom: 0.51em;
+  border-bottom: rgb(214, 163, 87) solid 2px;
 }
 
 .cusine-subheading {
-    padding: 0 0 0 .2em;
-    margin:auto; 
-    font-family: 'Outfit', 'Roboto', Helvetica;
-    font-weight: 200;
-    font-size: 2.1em;
-    color: rgb(214, 163, 87);
+  padding: 0 0 0 0.2em;
+  margin: auto;
+  font-family: "Outfit", "Roboto", Helvetica;
+  font-weight: 200;
+  font-size: 2.1em;
+  color: rgb(214, 163, 87);
+}
+
+.gallery-image {
+  height: 400px;
+  width: 400px;
+}
+
+.gallery-container {
+  margin: auto;
+  /* background-color: orange; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: 88%;
 }
